@@ -1,4 +1,4 @@
-FROM tibalt/rpi-node-alpine
+FROM tibalt/alpine-node
 
 WORKDIR /app
 
