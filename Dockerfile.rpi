@@ -1,10 +1,10 @@
 FROM tibalt/alpine-node:rpi
 
+RUN [ "cross-build-start" ]
+
 WORKDIR /app
 
 USER app
-
-RUN [ "cross-build-start" ]
 
 #RUN \
 #git clone --depth=1 https://github.com/darkwebdev/mozaik-dashboard dashboard && \
