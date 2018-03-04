@@ -4,10 +4,14 @@ WORKDIR /app
 
 USER app
 
+RUN [ "cross-build-start" ]
+
 RUN \
 git clone --depth=1 https://github.com/darkwebdev/mozaik-dashboard dashboard && \
 cd dashboard && \
 npm i
+
+RUN [ "cross-build-end" ]
 
 COPY ./app /app
 
