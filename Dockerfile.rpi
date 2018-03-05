@@ -19,4 +19,4 @@ EXPOSE 5000
 
 USER app
 
-ENTRYPOINT ["/app/entry.sh"]
+ENTRYPOINT ["sh", "/app/entry.sh"]

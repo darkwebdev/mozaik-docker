@@ -13,4 +13,4 @@ COPY ./app /app
 
 EXPOSE 5000
 
-ENTRYPOINT ["/app/entry.sh"]
+ENTRYPOINT ["sh", "/app/entry.sh"]
