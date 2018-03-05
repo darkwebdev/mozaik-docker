@@ -1,0 +1,12 @@
+image: tibalt/mozaik:latest
+manifests:
+  -
+    image: tibalt/mozaik:latest
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: tibalt/mozaik:rpi
+    platform:
+      architecture: arm
+      os: linux
