@@ -10,3 +10,8 @@ manifests:
     platform:
       architecture: arm
       os: linux
+  -
+    image: tibalt/mozaik:mac
+    platform:
+      architecture: darwin64
+      os: osx

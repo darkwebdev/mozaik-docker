@@ -11,6 +11,6 @@ npm i
 
 COPY ./app /app
 
-EXPOSE 5000
+EXPOSE 5050
 
 ENTRYPOINT ["sh", "/app/entry.sh"]
