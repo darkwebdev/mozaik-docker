@@ -9,7 +9,7 @@ git clone --depth=1 https://github.com/darkwebdev/mozaik-dashboard dashboard && 
 cd dashboard && \
 npm i
 
-RUN chown app:users /app/dashboard
+RUN chown -R app:users /app/dashboard
 
 RUN [ "cross-build-end" ]
 
